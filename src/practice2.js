@@ -59,6 +59,7 @@ export function App2 () {
       {fruits.map(fruit => (
         <Card MyFruit={fruit} />
       ))}
+      
       <div className='random'>
         <img src={randomfruit.src} alt={randomfruit.Name}></img>
         <h3>{randomfruit.Name}</h3>

@@ -10,30 +10,52 @@
   grid-template-columns: repeat(3, 300px);
   justify-content: center;
   gap: 20px;
+  background-image: url(../public/fruits/bg3.jpg);
+  background-size: cover;
 }
 
 .card > img {
   width: 100%;
   height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .card {
-  background-color: rgb(230, 219, 205);
+  background-color: rgba(255, 255, 255, 0.137);
+  border-radius: 10px;
 }
 .details {
   padding: 10px 10px 0px;
+  color: hsl(0, 0%, 100%);
 }
 button {
-  background-color: yellowgreen;
+  background-color: rgb(228, 235, 216);
   border: none;
   padding: 10px 20px;
   border-radius: 10px;
   margin: 10px;
+  font-weight: 600;
+}
+.random {
+  background-color: #3f5f36e7;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .random > img {
-  width: 250px;
+  width: 100%;
   height: 200px;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.random > h3 {
+  padding: 0px 10px;
+  font-size: x-large;
+}
+.random > p {
+  padding: 0px 10px;
 }
 
 @media (max-width: 850px) {
